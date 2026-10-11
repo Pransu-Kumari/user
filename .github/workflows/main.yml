@@ -1,0 +1,16 @@
+name: hello-world
+'on': push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 24f2002390@ds.study.iitm.ac.in
+        run: echo "Hello, world!" 
+
+      
